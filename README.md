@@ -7,7 +7,8 @@
 ```
 php >= 5.3,
 Apache Server >= 2.4
-composer Dependency Manager for PHP
+Imagemagick php extension
+composer Dependency Manager
 ```
 
 ###Clone the project###
