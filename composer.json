@@ -1,0 +1,23 @@
+{
+    "name": "vobinary/qiresizer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Oleynikov",
+            "email": "vitaliy.oleynikov@binary-studio.com"
+        }
+    ],
+    "require": {
+        "php":">=5.3.0",
+        "ext-imagick": "*",
+        "pda/pheanstalk": "^3.1"
+    },
+    "autoload": {
+        "classmap": [
+            "jobs/"
+        ],
+        "files": [
+          "helpers.php"
+        ]
+    }
+}
